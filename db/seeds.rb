@@ -1,6 +1,3 @@
-
-
-# Vehicles
 Vehicle.create!(
   vehicle_name: 'SUV1',
   vehicle_model: 'Toyota RAV4',
@@ -97,7 +94,7 @@ Vehicle.create!(
   frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/141857/kiger-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80&wm=1'
 )
 
-# Sightseeings
+
 Sightseeing.create!(
   location: 'Berlin City',
   description: 'A beautiful museum showcasing various art collections.',
@@ -148,11 +145,26 @@ Seat.create!(
 Seat.create!(
   seat_name: 'Front Seat',
   seat_description: 'Comfortable front seat with a good view.',
-  image: 'front_seat.jpg' # Replace with the actual image filename or URL
+  image: 'front_seat.jpg' 
 )
 
 
 
-# Add more realistic city names and locations as needed for additional records.
+User.create!(
+  first_name: 'Jane',
+  last_name: 'Smith',
+  email: 'samabera03@gmail.com',
+  phone_number: '98543',
+  password: 'password456',
+  password_confirmation: 'password456'
+)
 
-# You can add more records for other tables based on your requirements.
+
+Driver.create!(
+  driver_name: 'John Doe',
+  phone_number: 1234567890,
+  email: 'john@example.com',
+  status: 'Available',
+  language: 'English'
+)
+
