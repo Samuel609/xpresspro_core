@@ -1,6 +1,3 @@
-
-
-# Vehicles
 Vehicle.create!(
   vehicle_name: 'SUV1',
   vehicle_model: 'Toyota RAV4',
@@ -10,7 +7,10 @@ Vehicle.create!(
   weightcapacity: 1500,
   sideview: 'https://imgd.aeplcdn.com/370x208/cw/ec/28085/Land-Rover-Range-Rover-Velar-Right-Front-Three-Quarter-92180.jpg?v=201711021421&q=80',
   backview: 'https://imgd.aeplcdn.com/370x208/cw/ec/28085/Land-Rover-Range-Rover-Velar-left-rear-three-quarter-92182.jpg?v=201711021421&q=80',
-  frontview: 'https://imgd.aeplcdn.com/370x208/cw/ec/28085/Land-Rover-Range-Rover-Velar-Left-Front-Three-Quarter-92181.jpg?v=201711021421&q=80'
+  frontview: 'https://imgd.aeplcdn.com/370x208/cw/ec/28085/Land-Rover-Range-Rover-Velar-Left-Front-Three-Quarter-92181.jpg?v=201711021421&q=80',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
+
 )
 
 Vehicle.create!(
@@ -22,7 +22,9 @@ Vehicle.create!(
   weightcapacity: 1200,
   sideview: 'https://imgd.aeplcdn.com/370x208/n/cw/ec/116201/c-class-exterior-right-side-view-5.jpeg?isig=0&q=80',
   backview: 'https://imgd.aeplcdn.com/370x208/n/cw/ec/116201/c-class-exterior-right-side-view-2.jpeg?isig=0&q=80',
-  frontview: 'https://imgd.aeplcdn.com/370x208/n/cw/ec/116201/c-class-exterior-front-view-23.jpeg?isig=0&q=80'
+  frontview: 'https://imgd.aeplcdn.com/370x208/n/cw/ec/116201/c-class-exterior-front-view-23.jpeg?isig=0&q=80',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -34,7 +36,9 @@ Vehicle.create!(
   weightcapacity: 2100,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/36129/g-class-exterior-left-side-view.jpeg?isig=0&q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/36129/g-class-exterior-right-side-view.jpeg?isig=0&q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/150621/g-class-exterior-front-view.jpeg?isig=0&q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/150621/g-class-exterior-front-view.jpeg?isig=0&q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -46,7 +50,9 @@ Vehicle.create!(
   weightcapacity: 1500,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/94041/amg-a35-limousine-exterior-left-side-view-2.jpeg?q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/94041/amg-a35-limousine-exterior-right-side-view-2.jpeg?q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/94041/amg-a35-limousine-exterior-front-view-2.jpeg?q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/94041/amg-a35-limousine-exterior-front-view-2.jpeg?q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -58,7 +64,9 @@ Vehicle.create!(
   weightcapacity: 1500,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/40087/thar-exterior-left-rear-three-quarter.jpeg?q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/40087/thar-exterior-right-side-view.jpeg?q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/40087/thar-exterior-front-view.jpeg?q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/40087/thar-exterior-front-view.jpeg?q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -70,7 +78,9 @@ Vehicle.create!(
   weightcapacity: 1900,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/124027/urban-cruiser-hyryder-exterior-left-side-view-2.jpeg?isig=0&q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/124027/urban-cruiser-hyryder-exterior-right-side-view-2.jpeg?isig=0&q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/124027/urban-cruiser-hyryder-exterior-right-front-three-quarter-71.jpeg?isig=0&q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/124027/urban-cruiser-hyryder-exterior-right-front-three-quarter-71.jpeg?isig=0&q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -82,7 +92,9 @@ Vehicle.create!(
   weightcapacity: 1800,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/140591/new-x1-exterior-left-side-view.jpeg?isig=0&q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/140591/new-x1-exterior-right-side-view.jpeg?isig=0&q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/140591/new-x1-exterior-right-front-three-quarter-6.jpeg?isig=0&q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/140591/new-x1-exterior-right-front-three-quarter-6.jpeg?isig=0&q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
 Vehicle.create!(
@@ -94,10 +106,12 @@ Vehicle.create!(
   weightcapacity: 1900,
   sideview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/141857/kiger-exterior-left-side-view.jpeg?isig=0&q=80&wm=1',
   backview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/141857/kiger-exterior-right-side-view-2.jpeg?isig=0&q=80&wm=1',
-  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/141857/kiger-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80&wm=1'
+  frontview: 'https://imgd.aeplcdn.com/1056x594/n/cw/ec/141857/kiger-exterior-right-front-three-quarter-5.jpeg?isig=0&q=80&wm=1',
+  VehicleType: "Car",
+  CarBodyType: "Coupe"
 )
 
-# Sightseeings
+
 Sightseeing.create!(
   location: 'Berlin City',
   description: 'A beautiful museum showcasing various art collections.',
@@ -148,11 +162,26 @@ Seat.create!(
 Seat.create!(
   seat_name: 'Front Seat',
   seat_description: 'Comfortable front seat with a good view.',
-  image: 'front_seat.jpg' # Replace with the actual image filename or URL
+  image: 'front_seat.jpg' 
 )
 
 
 
-# Add more realistic city names and locations as needed for additional records.
+User.create!(
+  first_name: 'Jane',
+  last_name: 'Smith',
+  email: 'samabera03@gmail.com',
+  phone_number: '98543',
+  password: 'password456',
+  password_confirmation: 'password456'
+)
 
-# You can add more records for other tables based on your requirements.
+
+Driver.create!(
+  driver_name: 'John Doe',
+  phone_number: 1234567890,
+  email: 'john@example.com',
+  status: 'Available',
+  language: 'English'
+)
+

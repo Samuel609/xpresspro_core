@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-
-ActiveRecord::Schema[7.0].define(version: 2023_11_22_132335) do
+ActiveRecord::Schema[7.0].define(version: 2023_12_17_213525) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "blogs", force: :cascade do |t|
+    t.string "comment", null: false
+    t.integer "stars", null: false
+    t.bigint "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_blogs_on_user_id"
+  end
 
   create_table "drivers", force: :cascade do |t|
     t.string "driver_name", null: false
@@ -82,6 +90,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_22_132335) do
     t.string "sideview", null: false
     t.string "backview", null: false
     t.string "frontview", null: false
+    t.string "VehicleType", null: false
+    t.string "CarBodyType", null: false
   end
 
 end
