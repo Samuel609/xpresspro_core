@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_12_13_181205) do
+ActiveRecord::Schema[7.0].define(version: 2023_12_17_213525) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -38,7 +38,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_12_13_181205) do
     t.string "destination", null: false
     t.date "Departure_Date", null: false
     t.time "Departure_time", null: false
-    t.string "list_of_Sightseeing", default: [], array: true
+    t.string "list_of_Sightseeing", default: [], null: false, array: true
     t.string "status", default: "Pending"
     t.bigint "user_id", null: false
     t.bigint "vehicle_id", null: false
@@ -90,6 +90,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_12_13_181205) do
     t.string "sideview", null: false
     t.string "backview", null: false
     t.string "frontview", null: false
+    t.string "VehicleType", null: false
+    t.string "CarBodyType", null: false
   end
 
 end

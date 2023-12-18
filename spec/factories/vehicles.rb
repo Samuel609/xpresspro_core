@@ -9,6 +9,9 @@ FactoryBot.define do
     frontview { Faker::Lorem.sentence}
     backview { Faker::Lorem.sentence}
     sideview { Faker::Lorem.sentence}
+    CarBodyType { Vehicle::COUPE}
+    VehicleType { Vehicle::CAR }
+
 
   end
 end

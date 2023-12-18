@@ -11,7 +11,7 @@ RSpec.describe JourneyBookingMailer, type: :mailer do
     it 'renders the headers' do
       expect(mail.subject).to eq('Journey Booking Confirmation')
       expect(mail.to).to eq([user.email])
-      expect(mail.from).to eq(['your_app@example.com']) # Replace with your actual sender email
+      expect(mail.from).to eq(['xpresspro.service@gmail.com']) # Replace with your actual sender email
     end
 
     it 'renders the body' do

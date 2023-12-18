@@ -10,7 +10,10 @@ RSpec.describe Vehicle, type: :model do
     {person_capacity: [:presence, {numericality: [[:is_greater_than, 0]]}]},
     {weightcapacity: [:presence, {numericality: [[:is_greater_than, 0]]}]},
     {price_per_day: [:presence, {numericality: [[:is_greater_than, 0]]}]},
-    {luggage_capacity: [:presence, {numericality: [[:is_greater_than, 0]]}]}
+    {luggage_capacity: [:presence, {numericality: [[:is_greater_than, 0]]}]},
+    {VehicleType: [:presence, {inclusion: [[:in_array, Vehicle::VEHICLETYPE]]}]},
+    {CarBodyType: [:presence, {inclusion: [[:in_array, Vehicle::CARBODYTYPE]]}]}
+
   ]
   include_examples('model_shared_spec', :vehicle, attributes)
 end
